@@ -1,0 +1,53 @@
+{
+  "name": "agents-marketplace",
+  "description": "Claude Code plugins for hierarchical agent systems, documentation management, and continuous learning",
+  "owner": {
+    "name": "Phil Beyer",
+    "email": "6152278+pjbeyer@users.noreply.github.com",
+    "url": "https://github.com/pjbeyer"
+  },
+  "plugins": [
+    {
+      "name": "agents-learning-system",
+      "version": "1.0.0",
+      "description": "Capture, track, and implement learnings with hierarchical storage and closed-loop tracking across profiles",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pjbeyer/agents-learning-system.git"
+      },
+      "author": {
+        "name": "Phil Beyer",
+        "email": "6152278+pjbeyer@users.noreply.github.com"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "agents-documentation-suite",
+      "version": "1.0.0",
+      "description": "Hierarchical documentation system with audience specialization (human/machine/team/public) and multi-platform publishing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pjbeyer/agents-documentation-suite.git"
+      },
+      "author": {
+        "name": "Phil Beyer",
+        "email": "6152278+pjbeyer@users.noreply.github.com"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "agents-context-system",
+      "version": "1.0.0",
+      "description": "Manage hierarchical agent infrastructure, AGENTS.md optimization, MCP configuration, and smart context loading across profiles",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pjbeyer/agents-context-system.git"
+      },
+      "author": {
+        "name": "Phil Beyer",
+        "email": "6152278+pjbeyer@users.noreply.github.com"
+      },
+      "license": "MIT"
+    }
+  ]
+}
